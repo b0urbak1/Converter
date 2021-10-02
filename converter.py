@@ -1,4 +1,4 @@
-raw_data = open("file_name.txt", "r")  #reads data from file to a handle
+raw_data = open("file_name.txt", "r")  #reads data from file to a handle, file must be in the same directory as the code, replace "file_name.txt" with actual filename.
 
 raw_string = raw_data.read() #reads data from handle to a string
 
